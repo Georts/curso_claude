@@ -7,4 +7,11 @@
     <RootNamespace>app_curso_claude</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="app-curso-claude.Tests\**" />
+    <Content Remove="app-curso-claude.Tests\**" />
+    <EmbeddedResource Remove="app-curso-claude.Tests\**" />
+    <None Remove="app-curso-claude.Tests\**" />
+  </ItemGroup>
+
 </Project>
